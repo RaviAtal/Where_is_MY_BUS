@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  list-style-type: none !important;
+  box-sizing: border-box !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ff_roboto {
+  font-family: "Roboto", sans-serif !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root {
+  /* -----FONT SIZE---- */
+  --fs-i: 12px;
+  --fs-ii: 14px;
+  --fs-iii: 16px;
+  --fs-iv: 18px;
+  --fs-v: 20px;
+  --fs-vi: 24px;
+  --fs-vii: 26px;
+  --fs-viii: 28px;
+  --fs-ix: 32px;
+  --fs-x: 36px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* -------FONT SIZE------- */
+.fs_i {
+  font-size: var(--fs-i) !important;
 }
 
-.App-link {
-  color: #61dafb;
+.fs_ii {
+  font-size: var(--fs-ii) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fs_iii {
+  font-size: var(--fs-iii) !important;
+}
+
+.fs_iv {
+  font-size: var(--fs-iv) !important;
+}
+
+.fs_v {
+  font-size: var(--fs-v) !important;
+}
+
+.fs_vi {
+  font-size: var(--fs-vi) !important;
+}
+
+.fs_vii {
+  font-size: var(--fs-vii) !important;
+}
+
+.fs_viii {
+  font-size: var(--fs-viii) !important;
+}
+
+.fs_ix {
+  font-size: var(--fs-ix) !important;
+}
+
+.fs_x {
+  font-size: var(--fs-x) !important;
 }
